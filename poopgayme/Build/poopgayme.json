@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "poopgayme.data.unityweb",
+"asmCodeUrl": "poopgayme.asm.code.unityweb",
+"asmMemoryUrl": "poopgayme.asm.memory.unityweb",
+"asmFrameworkUrl": "poopgayme.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
