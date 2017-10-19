@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 4b7ad2e44886b460289a0c7d3348040c
+timeCreated: 1508420756
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: GoodDog Cool
+  fontNames:
+  - GoodDog Cool
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

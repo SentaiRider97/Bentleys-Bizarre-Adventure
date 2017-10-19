@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: fe45a8611e32e4f25b4190c187471132
+timeCreated: 1508420756
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: GoodDog Plain
+  fontNames:
+  - GoodDog Plain
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
