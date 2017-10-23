@@ -12,8 +12,19 @@ public class TimeLimit : MonoBehaviour {
 	float seconds = 59.9998f;
 	int minutes = 1;
 
+	private Spawn spawnScript;
+	public AudioSource gameplayMusic;
+	public AudioSource gameoverMusic;
+	public AudioSource victoryMusic;
+
+	public Canvas victoryCanvas;
+
 	void Start() {
 		gameoverCanvas.enabled = false;
+		spawnScript = FindObjectOfType<Spawn> ();
+		gameoverMusic.enabled = false;
+		victoryMusic.enabled = false;
+		gameplayMusic.enabled = true;
 	}
 
 	void Update() {
@@ -37,5 +48,16 @@ public class TimeLimit : MonoBehaviour {
 			minutesText.text = (minutes.ToString ()) + ":";
 		}
 		else { minutesText.text = "0:";}
+
+		if (victoryCanvas.enabled == true || gameoverCanvas.enabled == true) {
+			gameplayMusic.enabled = false;
+		} else { gameplayMusic.enabled = true; }
+
+		if (victoryCanvas.enabled == true) {
+			victoryMusic.enabled = true;
+		}
+		if (gameoverCanvas.enabled == true) {
+			gameoverMusic.enabled = true;
+		}
 	}
 }

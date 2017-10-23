@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PickUpDemPoop : MonoBehaviour {
 	private Spawn SpawnScript; 
+
 	// Use this for initialization
 	void Start () {
 		SpawnScript = FindObjectOfType<Spawn> ();

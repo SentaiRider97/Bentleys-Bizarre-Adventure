@@ -1,10 +1,27 @@
 fileFormatVersion: 2
 guid: bcdac7e73c51c4f88add40711ff1ef74
-timeCreated: 1506881650
+timeCreated: 1508721950
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - hydrant: {instanceID: 0}
+  - bush: {instanceID: 0}
+  - house1: {instanceID: 0}
+  - dog: {instanceID: 0}
+  - shit: {instanceID: 0}
+  - house2: {instanceID: 0}
+  - house3: {instanceID: 0}
+  - house4: {instanceID: 0}
+  - house5: {instanceID: 0}
+  - house6: {instanceID: 0}
+  - house7: {instanceID: 0}
+  - house8: {instanceID: 0}
+  - house9: {instanceID: 0}
+  - otherhuman: {instanceID: 0}
+  - myText: {instanceID: 0}
+  - victoryCanvas: {instanceID: 0}
+  - bag: {fileID: 8300000, guid: edce2fb052d8d4cf09ba5a3982ae9fe7, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

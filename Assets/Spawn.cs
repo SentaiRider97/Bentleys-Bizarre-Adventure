@@ -105,7 +105,6 @@ public class Spawn : MonoBehaviour {
 		}
 	}
 
-
 	public void AddToCounter(){
 		Counter++;
 	}

@@ -6,5 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/startscreen.unity
+    guid: 2acabaa2f6d2747f994e687a4214555f
+  - enabled: 1
     path: Assets/poopgame.unity
     guid: 04f725c00b32946778d4fe72a5b6c5af
